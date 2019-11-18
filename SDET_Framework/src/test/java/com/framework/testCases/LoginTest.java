@@ -55,6 +55,7 @@ public class LoginTest extends BasePage{
 		login.setUserName(user);
 		login.setPassword(pass);
 		login.clickLoginBtn();
+		System.out.println("Test");
 		
 		log.info("Ending");
 		
